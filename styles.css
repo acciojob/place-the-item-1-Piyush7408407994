@@ -1,2 +1,16 @@
+.holder {
+  display: flex;
+  flex-wrap: wrap;             
+  justify-content: space-between; 
+  padding: 10px;               
+  box-sizing: border-box;
+}
 
-/* Your CSS Code here. */
+.item {
+  flex: 0 1 auto;            
+  margin-bottom: 20px;         
+  background-color: lightblue; 
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+}
